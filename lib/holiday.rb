@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
         a = a + " " + f 
       end
       second_one_string = together.join(",")
-      puts " #{a.strip}: #{second_one_string}"
+      puts " #{a}: #{second_one_string}"
     end     
   end
 end
