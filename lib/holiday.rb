@@ -82,7 +82,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |key,value|
     value.each do |one,two|
       if two.include?("BBQ")
-        arr << holiday_hash[key]
+        arr << one
       end
     
     end
