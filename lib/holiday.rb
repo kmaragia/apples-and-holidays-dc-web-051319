@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
         f = ok.capitalize!
         a = a + " " + f 
       end
-      second_one_string = together.join(",")
+      second_one_string = together.join(", ")
       puts " #{a}: #{second_one_string}"
     end     
   end
